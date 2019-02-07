@@ -9,6 +9,30 @@ html {
 /* ======= Base Elements ======= */
 
 body {
+  font-size: 1.4em;
+  color: #6e859c;
+  padding: 0;
+  margin: 0;
+  background: #e8e9e9;
+}
+
+header {
+  background-color: pink;
+}
+
+
+/* ---------- Font ---------- */
+h1,
+h2,
+p,
+span,
+li {
+  font-family: 'Source Code Pro', monospace
+}
+
+ul {
+  list-style-type: none;
+  /* padding: 20px; */
 
 }
 
@@ -16,12 +40,51 @@ h1 {
 
 }
 
+h2,
 p {
+  text-align: center;
+}
 
+li {
+  font-size: 24px;
+  display: inline;
+  text-align: center;
+  /* border: 5px solid black; */
+}
+
+a {
+  text-decoration: none;
+  padding: 15px;
 }
 
 /* ======= Class Elements ======= */
+.grid {
+  /* max-width: auto; */
+  /* justify-content: flex-end; */
+  display: grid;
+  /* justify-content: space-between; */
+  grid-template-columns: 450px auto 500px 200px;
+  /* grid-gap: 50px; */
+  text-align: center;
+  text-de
+}
 
+.home-logo {
+  display: grid;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+.header-motto {
+  /* padding: 20px; */
+}
+
+.home-logo,
+.header-motto,
+.header-nav,
+.header-sign-in {
+  padding: 20px;
+}
 
 /* ======= ID Elements ======= */
 
