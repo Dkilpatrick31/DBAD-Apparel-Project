@@ -9,81 +9,102 @@ html {
 /* ======= Base Elements ======= */
 
 body {
-  font-size: 1em;
-  color: #6e859c;
+  font-size: 18px;
+  color: rgba(29, 29, 29, 0.7);
   padding: 0;
   margin: 0;
-  background: #e8e9e9;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  text-transform: none;
+  line-height: 1.8em;
+  letter-spacing: 0.06em;
 }
 
 header {
   background-color: pink;
-
-}
-
-
-/* ---------- Font ---------- */
-h1,
-h2,
-p,
-span,
-li {
-  font-family: 'Source Code Pro', monospace
 }
 
 ul {
   list-style-type: none;
-  /* padding: 20px; */
-
 }
 
 h1 {
 
 }
 
-h2,
-p {
-  text-align: center;
-}
-
-li {
-  font-size: 24px;
-  display: inline;
-  text-align: center;
-  /* border: 5px solid black; */
-}
-
 a {
+  padding: 10px;
+  color: rgba(29, 29, 29, 0.7);
   text-decoration: none;
-  padding: 15px;
 }
 
 /* ======= Class Elements ======= */
-.flex-header {
-  /* max-width: auto; */
+.header-top {
+  /* background: #fff; */
+  display: block;
+  /* justify-content: space-between; */
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+.header-inner {
   display: flex;
   justify-content: space-between;
-  text-align: center;
+  padding: 20px 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.home-logo {
-  display: grid;
+.header-top-left {
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  /* margin-right: auto; */
   justify-content: flex-start;
-  margin-left: 50px;
 }
 
-.header-motto {
-  /* padding: 20px; */
+.header-nav {
+  font-size: 12px;
 }
 
-.home-logo,
-.header-motto,
-.header-nav,
-.header-sign-in {
-  padding: 20px;
+.header-tagline {
+  padding: 10px;
+  margin-right: 100px;
+  font-size: 12px;
 }
+
+.header-top-center {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.header-top-right {
+  display: flex;
+  max-width: 100%;
+  justify-content: flex-end;
+}
+
+.header-nav-inner {
+
+}
+
+.header-nav-item {
+  font-size: 24px;
+  line-height: 12px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+
+/* ======== Banner Layout ======== */
+
+.banner-img {
+  max-height: 567.4px;
+  width: 100%;
+}
+
+
+
 
 /* ======= ID Elements ======= */
-
-
-/* ======= Pseudo Elements ======= */
