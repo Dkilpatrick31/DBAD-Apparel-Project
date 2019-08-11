@@ -5,5 +5,12 @@ function runOnScroll () {
   } else {
     headerInner[0].classList.remove('shrink');
   }
-  console.log(ssssssssssssstopMenu[0].classList);
+  console.log(stopMenu[0].classList);
+}
+
+
+const ernie = {
+  animal: 'dog',
+  breed: 'pug',
+
 }
