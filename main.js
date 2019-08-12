@@ -7,6 +7,13 @@ function runOnScroll () {
   }
   console.log(stopMenu[0].classList);
 }
+// 
+// const navContainer = document.getElementById('navContainer');
+//
+//   if (navContainer !== )
+//
+// console.log(navContainer);
+//
 
 
 const ernie = {

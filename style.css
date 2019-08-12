@@ -28,7 +28,7 @@ p {
 a {
   padding: 10px;
   color: rgba(29, 29, 29, 0.7);
-  text-decoration: none;
+  text-decoration: none;DBAD APPARAL
 }
 
 h1 {
@@ -53,7 +53,9 @@ h3 {
 
 .headerInner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 
 .nav-container {
@@ -81,6 +83,21 @@ nav {
   border-right: 1px solid #89b6d4; */
 }
 
+/* Side-Bar Nav */
+.side-menu-item {
+  display: flex;
+  height: 5px;
+  font-size: 35px;
+  padding-right: 15px;
+}
+
+/* Website Title */
+.home-logo {
+    font-size: 22px;
+    text-align: center;
+    padding-right: 15px;
+}
+
 .header-top-right {
   display: flex;
   position: absolute;
@@ -89,8 +106,8 @@ nav {
   right: 10px;
 }
 
-.shop {
-  padding-top: 8px;
+#shop {
+  padding-top: 7px;
 }
 
 /* ======== Banner Layout ======== */
@@ -100,6 +117,7 @@ nav {
   flex-direction: column;
   width: 100%;
 }
+
 
 .banner {
   width: 100%;
@@ -115,7 +133,7 @@ nav {
   position: absolute;
   color: white;
   left: 40px;
-  top: 45%;
+  top: 32%;
   font-size: .5em;
 }
 
@@ -336,6 +354,94 @@ footer {
 }
 
 /* ======= Media Queries ======= */
+
+  /* Mobile - S */
+  /* @media (min-width:320px){
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 55px;
+      top: 35%;
+    }
+  } */
+
+  /* Mobile - M */
+  @media (min-width:375px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 55px;
+      top: 37%;
+    }
+  }
+
+  /* Mobile - L */
+  @media (min-width: 425px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 70px;
+      top: 41%;
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 150px;
+      top: 70%;
+      font-size: 13px;
+    }
+  }
+
+  /* Laptop */
+  @media (min-width: 1024px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 210px;
+      top: 57%;
+      font-size: 18px;
+    }
+  }
+
+  /* Laptop - L */
+  @media (min-width: 1440px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 330px;
+      top: 68%;
+      font-size: 20px;
+    }
+  }
+
+  /* 4k Resolution */
+  @media (min-width: 2560px) {
+    .banner-shop-now {
+      position: absolute;
+      color: white;
+      left: 550px;
+      top: 62%;
+      font-size: 40px;
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 449px) {
+    .nav-container,
+    .shop {
+      display: none;
+    }
+
+  }
+
+  @media (min-width: 450px) {
+    .nav-container {
+      /* display: block; */
+    }
+  }
 /* @media (min-width: 1200px) {
 
   .header-top {
