@@ -57,13 +57,13 @@ h3 {
   justify-content: space-evenly;
   align-items: baseline;
 }
-
+/*
 .nav-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-}
+} */
 
 .nav-header {
   position: absolute;
@@ -357,6 +357,7 @@ footer {
 
   /* Mobile - S */
   /* @media (min-width:320px){
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -367,6 +368,7 @@ footer {
 
   /* Mobile - M */
   @media (min-width:375px) {
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -377,6 +379,7 @@ footer {
 
   /* Mobile - L */
   @media (min-width: 425px) {
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -387,6 +390,24 @@ footer {
 
   /* Tablet */
   @media (min-width: 768px) {
+
+    .nav-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      margin-bottom: 25px;
+    }
+
+    .span-header {
+
+    }
+
+    .side-menu-button {
+      display: none;
+    }
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -398,6 +419,11 @@ footer {
 
   /* Laptop */
   @media (min-width: 1024px) {
+
+    .side-menu-button {
+      display: none;
+    }
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -409,6 +435,11 @@ footer {
 
   /* Laptop - L */
   @media (min-width: 1440px) {
+
+    .side-menu-button {
+      display: none;
+    }
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -420,6 +451,11 @@ footer {
 
   /* 4k Resolution */
   @media (min-width: 2560px) {
+
+    .side-menu-button {
+      display: none;
+    }
+
     .banner-shop-now {
       position: absolute;
       color: white;
@@ -430,6 +466,7 @@ footer {
   }
 
   @media (min-width: 0px) and (max-width: 449px) {
+
     .nav-container,
     .shop {
       display: none;
@@ -442,7 +479,11 @@ footer {
       /* display: block; */
     }
   }
-/* @media (min-width: 1200px) {
+@media (min-width: 768px) {
+
+  .side-menu-button {
+    display: none;
+  }
 
   .header-top {
     display: block;
@@ -454,8 +495,8 @@ footer {
   .headerInner {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    /* align-items: baseline; */
   }
 
   .header-top-center {
@@ -582,4 +623,4 @@ footer {
     width: 50%;
   }
 
-} */
+}
